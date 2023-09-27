@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 24px;
+    height: 20px;
+}
+hr{
+    width: 75%;
+}
+
+#logo_div{
+    border: 2px solid #80808085;
+    padding: 4px;
+    margin: 39px 252px;
+    border-radius: 4px;
+    text-align: center;
+    width: 240px;
+}
+
+.input{
+    width: 21rem;
+    margin: 8px 9px -1px 5px;
+    padding: 10px 223px 8px 10px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   display: flex;
+}
+
+#Welcome-text {
+    text-align: left;
+    margin: 174px 76px 41px 87px;
+}
+
+
+#form{
+    margin: 10px 0px 1px 73px;
+    padding: 9px 9px 9px 3px;
+}
+
+#loginWithGoogle{
+    display: inline-block;
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 490px;
+    margin: -16px 129px;
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content: " ";
+    height: 0.5px;
+    width: 258px;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -41px;
+  }
+  
+  .hr-lines:after{
+    content: " ";
+    height: 0.5px;
+    width: 270px;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -48px;
+  }
+
+h4,p{
+    margin: 4px;
+}
+
+#div-left{
+    background-color: #fff;
+    width: 50%;
+}
+
+#div-right{
+    width: 50%;
+    display: inline-block;
+    background-color: hsl(193, 61%, 66%);
+}
+
+#check-box{
+    margin: 1px 1px 0px 0px;
+    padding: 1px 1px 0px 0px;
+}
+
+#submit-btn{
+    background-color: #F16695;
+    color: white;
+    margin: 2px 10px 2px 212px;
+    padding: 10px 47px;
+    border-radius: 5px;
+    border: none;
+    width: 189px;
+}
+
+.pink-color{
+    color:#F16695;
+}
+
+.form-div{
+    margin: 4px;
+    padding: 2px;
+}
+
+.form-label-input{
+    margin: 4px;
+    padding: 2px;
+}
